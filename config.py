@@ -5,7 +5,7 @@ from pyrogram import filters
 load_dotenv()
 
 
-
+print("hello")
 #Basic-Setup
 OWNER_ID = int(getenv("OWNER_ID"))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
